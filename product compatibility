@@ -1,0 +1,68 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+
+
+int main(){
+int z;	
+string a,b,c,d,e,f,g,v,n,m,k,j,x,y;
+a = "ogurets";
+b = "pomidor";
+c = "kartoska";
+d = "baklazhan";
+e = "gribi";
+f = "morkov";
+g = "luk";
+
+
+
+
+v = "yabloko";
+n = "banan";
+m = "mandarin";
+k = "grusha";
+j = "limon";
+	
+cout << "Vedite gryppu produktov" << endl;
+cout << "1 : Ovoshi" << endl;
+cout << "2 : Frukti" << endl;
+cout << "3 : frukti s Ovoshami" << endl;
+cout << "Vedite chislo : ";
+cin >> z;
+ switch(z){
+case 1:
+cout << "Vedite produkt : ";
+cin >> x;
+cout << "Vedite produkt : ";
+cin >> y;
+
+if(x == a||x == b||x == c||x == d||x == e||x == f||x == g , y == a||y == b||y == c||y == d||y == e||y == f||y == g) 
+cout << x << " i " << y << " sovmestimu" << endl;
+	break;
+case 2: 
+cout << "Vedite produkt : ";
+cin >> x;
+cout << "Vedite produkt : ";
+cin >> y;
+if(x == v||x == n||x == m||x == k||x == j, y == v||y == n||y == m||y == k||y == j) 
+cout << x << " i " << y << " sovmestimu" << endl;
+break;
+case 3:
+	cout << "Vedite ovosh : ";
+cin >> x;
+cout << "Vedite frukt : ";
+cin >> y;
+if(x == e||x == c & y == j) 
+cout << x << " i " << y << " sovmestimu" << endl;
+
+
+
+}
+
+	
+	
+	return 0;
+}
